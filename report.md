@@ -1,7 +1,16 @@
 # 人工智能开源软件开发与管理课程项目报告
 
 ## 1. 论文公式对应代码
-
+1. 状态预测 (State Prediction)<br>利用 IMU 数据进行状态的前向传播 (积分)。  
+FAST_LIO/src/IMU_Processing.hpp      238 - 258行
+2. 残差计算 (Residual Computation)<br>计算当前点到地图平面的距离             
+FAST_LIO/src/laserMapping.cpp        670 - 678行
+3. 雅可比矩阵计算 (Jacobian Calculation)<br>计算残差相对于状态的导数 
+FAST_LIO/src/laserMapping.cpp        720 - 738行
+4. 迭代卡尔曼滤波更新 (Iterated Update)<br>求解增益 K 并更新状态
+FAST_LIO/src/laserMapping.cpp        988行  
+5. 地图维护 (Map Maintenance)<br>增量式更新 ikd-Tree (ikd-Tree Update)
+FAST_LIO/src/laserMapping.cpp        1003行
 
 ---
 
