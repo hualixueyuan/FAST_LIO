@@ -48,4 +48,4 @@ flowchart TD
 ---
 
 ## 7. 实验结果
-![alt text](image/result.png)
+![alt text](image/123.png)
