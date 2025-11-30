@@ -17,7 +17,7 @@ FAST_LIO/src/laserMapping.cpp        1003行
 ## 2. 项目简介
 本项目基于 FAST-LIO 开源软件，旨在改进其在不同类型 LiDAR（包括 Livox、Velodyne）的适配与性能表现，并在无人机平台上进行实际测试与验证。
 
----
+---\
 
 ## 3. 问题提出
 在原有 FAST-LIO 系统中遇到的问题：
